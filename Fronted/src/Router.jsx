@@ -4,7 +4,7 @@ import { Main } from "./main/main";
 export function Router (){
     return(
         <Routes>
-            <Route path="/" element={<Main/>}/>
+            <Route path="/danger_admin" element={<Main/>}/>
         </Routes>
     )
 }
