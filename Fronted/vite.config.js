@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "https://eldragon-578.github.io/danger_admin",
+  // base: "https://eldragon-578.github.io/danger_admin/",
 });
