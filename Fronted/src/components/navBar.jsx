@@ -15,8 +15,8 @@ export function NavBar() {
   const buttons = [
     { content: "Tablas de Riesgo", link: "/riskTable" },
     { content: "Taller 1", link: "/workshopOne" },
-    { content: "HIR", link: "/riskTable" },
-    { content: "Taller 2", link: "/riskTable" },
+    { content: "HIR", link: "/HIR" },
+    { content: "Taller 2", link: "/HIRworkshop" },
 
   ];
   return (

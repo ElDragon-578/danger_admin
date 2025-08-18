@@ -93,7 +93,8 @@ export function WorkshopOne() {
     risks.forEach((risk, index) => {
       if (
         risk.categoria == myCalificableRisk[index].categoria &&
-        risk.probabilidad == myCalificableRisk[index].probabilidad &&
+        risk.probabilidad >= myCalificableRisk[index].probabilidad - 10 &&
+        risk.probabilidad <= myCalificableRisk[index].probabilidad + 10 &&
         risk.riesgo == myCalificableRisk[index].riesgo
       ) {
         counter += 1;
@@ -170,7 +171,7 @@ export function WorkshopOne() {
                       }
                       className="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
                     >
-                      <option  disabled value="">
+                      <option disabled value="">
                         Seleccione una categoria
                       </option>
                       {categorias.map((cat) => (
