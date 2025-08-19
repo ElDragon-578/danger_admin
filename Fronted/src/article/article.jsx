@@ -10,30 +10,14 @@ export function ExhibitionArticles() {
   const [articles] = useState([
     {
       id: 1,
-      title: "",
-      content: "",
-      image: "",
-      author: "",
-      link: ""
+      title: "Clasificación de Riesgos",
+      content: "La gestión de riesgos constituye un componente esencial en el éxito de los proyectos de software. Identificar, analizar y categorizar los riesgos permite a los equipos anticiparse a problemas y diseñar estrategias de mitigación efectivas.Autores como Robert N. Charette han señalado que la clasificación de riesgos tiene un carácter inevitablemente subjetivo: depende de las percepciones y experiencias de quienes participan en el proyecto. En este sentido, una buena práctica es apoyarse en esquemas de categorización que faciliten la comprensión y el análisis, aunque siempre reconociendo que la realidad puede desbordar cualquier marco rígido.",
+      image: "https://cdn.gamma.app/7ppi847inz25yuh/03d32e63015d41d4aa729fd1727edd1b/original/image.png",
+      author: "Robert N. Charette",
+      link: "https://dl.acm.org/doi/10.5555/73468"
     },
     {
       id: 2,
-      title: "",
-      content: "",
-      image: "",
-      author: "",
-      link: ""
-    },
-    {
-      id: 3,
-      title: "",
-      content: "",
-      image: "",
-      author: "",
-      link: ""
-    },
-    {
-      id: 4,
       title: "Categorizacion subjetiva de riesgos",
       content: "Segun Charette, la gestión de riesgos en proyectos de software no solo se apoya en métricas cuantitativas, sino también en percepciones y experiencias. Robert N. Charette, uno de los pioneros en este campo, advierte que la forma en que se clasifican y entienden los riesgos es altamente subjetiva: depende de los juicios humanos, los sesgos emocionales y la experiencia de los equipos de trabajo. Por ello, cualquier categorización debe asumirse como una guía flexible más que como una verdad absoluta.",
       image: charette,
@@ -41,7 +25,7 @@ export function ExhibitionArticles() {
       link: "https://www.scirp.org/html/5068.html?utm_source=chatgpt.com"
     },
     {
-      id: 5,
+      id: 3,
       title: "Tablas de Riesgos",
       content: "En la gestión de proyectos de software, ingeniería o negocios, el riesgo se entiende como cualquier evento incierto que, de ocurrir, puede afectar de manera positiva o negativa los objetivos planteados. Para gestionar de forma ordenada estos riesgos, se recurre a un instrumento ampliamente utilizado: la tabla de riesgos.",
       image: riskTableImg,
@@ -49,7 +33,7 @@ export function ExhibitionArticles() {
       link: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiC09XstpWPAxXQRjABHeeXFkUQFnoECBwQAQ&url=http%3A%2F%2Fartemisa.unicauca.edu.co%2F~cardila%2FIS__Libro_Pressman_7.pdf&usg=AOvVaw2KgmzHHXLDZkqpBOyEHfIP&opi=89978449"
     },
     {
-      id: 6,
+      id: 4,
       title: "HIR",
       content: "En la gestión de proyectos, la identificación de riesgos no basta con enlistar posibles problemas: se requiere una descripción detallada y estructurada de cada riesgo para entender su origen, impacto y las acciones necesarias para enfrentarlo. Con este fin surgen las HIR (Hojas de Información de Riesgo), un instrumento complementario a la tabla de riesgos que permite profundizar en el análisis de cada amenaza o incertidumbre.",
       image: HIR,
